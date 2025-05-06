@@ -1,0 +1,97 @@
+/*Pricing plan*/
+:root {
+    --border: #1D71B8;
+    --text: #170F49;
+    --main: #1D71B8;
+}
+
+.pricing .card {
+    border: 1px solid var(--border);
+    padding: 30px 30px 0px 30px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+}
+.card-dark{
+    background-color: #FFF;
+}
+.card-free{
+    border: 1px solid var(--border);
+    background: #FFF;
+}
+.card-pro{
+    border: 2px solid var(--border) !important;
+    background: #FFF;
+}
+.price-color{
+    color: var(--text);
+}
+.pricing .card-title {
+    letter-spacing: .1rem;
+    font-weight: 700;
+}
+.pricing .card-price {
+    font-size: 2.25rem;
+    margin: 0;
+}
+.pricing .card-price .period {
+    font-size: 20px;
+    color: var(--text);
+}
+.pricing ul li {
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+.fa-ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.pricing .text-muted {
+    opacity: 0.7;
+}
+.fa-li{
+    margin-right: 5px;
+}
+.bi-check-circle-fill{
+    vertical-align: middle;
+    display: flex;
+    font-size: 26px;
+}
+.pricing .btn-red{
+    background-color: var(--main);
+    color: white;
+}
+.pricing .btn-red:hover{
+    background-color: #267dc7;
+}
+.pricing .text-red{
+    color: var(--main);
+}
+.btn-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.pricing .btn-outline-red{
+    border: 1px solid #EA1C30;
+}
+.badge {
+    padding: 0.35em 1.05em;
+}
+.btn-outline-red:hover{
+    background-color: #EA1C30;
+    color: white;
+}
+.tariff-desc{
+    color: #6F6C90;
+}
+.tariff-header{
+    color: var(--text);
+}
+.form-check-input:checked {
+    background-color: var(--main);
+    border-color: var(--main);
+}
+.red-btn{
+    background-color: #EA1C30;
+    border-color: #EA1C30;
+}
